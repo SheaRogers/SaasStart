@@ -4,17 +4,20 @@ using SaasStart.Logic.Entities;
 
 namespace SaasStart.Data
 {
+    /// <summary>
+    /// Provides access to each tenant database.
+    /// </summary>
     public class TenantDbContext : MultiTenantIdentityDbContext<ApplicationUser>
     {
         public TenantDbContext(SaasTenantInfo tenantInfo) : base(tenantInfo)
         {
         }
-        
-        public TenantDbContext(ITenantInfo tenantInfo, DbContextOptions<TenantDbContext> options)
+
+        public TenantDbContext(SaasTenantInfo tenantInfo, DbContextOptions<TenantDbContext> options)
             : base(tenantInfo, options)
         {
         }
-        
+
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
             optionsBuilder.UseNpgsql(TenantInfo.ConnectionString);

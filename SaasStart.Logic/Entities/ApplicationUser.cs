@@ -2,8 +2,10 @@
 
 namespace SaasStart.Logic.Entities
 {
-    public class ApplicationUser : IdentityUser
+    /// <summary>
+    ///     Contains extra information specific to a user.
+    /// </summary>
+    public abstract class ApplicationUser : IdentityUser
     {
-        
     }
 }

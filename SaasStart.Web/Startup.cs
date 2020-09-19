@@ -15,8 +15,8 @@ namespace SaasStart.Web
         {
             Configuration = configuration;
         }
-
-        public IConfiguration Configuration { get; }
+        
+        private IConfiguration Configuration { get; }
 
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
@@ -24,7 +24,7 @@ namespace SaasStart.Web
             services.AddDbContext<TenantDbContext>();
             services.AddIdentity<ApplicationUser, IdentityRole>()
                 .AddEntityFrameworkStores<TenantDbContext>();
-            
+
             services.AddRazorPages();
 
             services.AddMultiTenant<SaasTenantInfo>().WithHostStrategy()
