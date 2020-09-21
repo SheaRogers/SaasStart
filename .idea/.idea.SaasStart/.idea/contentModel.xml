@@ -14,22 +14,6 @@
     <e p="C:\Users\maran\AppData\Roaming\JetBrains\Rider2020.2\consoles\db" t="IncludeRecursive" />
     <e p="C:\Users\maran\Projects\SaasStart" t="IncludeFlat">
       <e p="packages" t="ExcludeRecursive" />
-      <e p="SaasStart.Data" t="IncludeRecursive">
-        <e p="ApplicationDbContext.cs" t="Include" />
-        <e p="bin" t="ExcludeRecursive" />
-        <e p="Factories" t="Include">
-          <e p="DesignTimeFactory.cs" t="Include" />
-        </e>
-        <e p="obj" t="ExcludeRecursive">
-          <e p="Debug" t="Include">
-            <e p="netcoreapp3.1" t="Include">
-              <e p="SaasStart.Data.AssemblyInfo.cs" t="Include" />
-            </e>
-          </e>
-        </e>
-        <e p="SaasStart.Data.csproj" t="IncludeRecursive" />
-        <e p="TenantDbContext.cs" t="Include" />
-      </e>
       <e p="SaasStart.Logic" t="IncludeRecursive">
         <e p="appsettings.json" t="Include" />
         <e p="bin" t="ExcludeRecursive" />
@@ -46,53 +30,61 @@
         </e>
         <e p="SaasStart.Logic.csproj" t="IncludeRecursive" />
       </e>
-      <e p="SaasStart.sln" t="IncludeFlat" />
-      <e p="SaasStart.Test" t="IncludeRecursive">
-        <e p="bin" t="ExcludeRecursive" />
-        <e p="Controllers" t="Include" />
-        <e p="obj" t="ExcludeRecursive">
-          <e p="Debug" t="Include">
-            <e p="netcoreapp3.1" t="Include">
-              <e p="SaasStart.Test.AssemblyInfo.cs" t="Include" />
-            </e>
-          </e>
-        </e>
-        <e p="SaasStart.Test.csproj" t="IncludeRecursive" />
-        <e p="Services" t="Include" />
-        <e p="UnitTest1.cs" t="Include" />
-      </e>
-      <e p="SaasStart.Web" t="IncludeRecursive">
+      <e p="SaasStart.MVC" t="IncludeRecursive">
         <e p="appsettings.Development.json" t="Include" />
         <e p="appsettings.json" t="Include" />
-        <e p="bin" t="ExcludeRecursive" />
-        <e p="obj" t="ExcludeRecursive">
-          <e p="Debug" t="Include">
-            <e p="netcoreapp3.1" t="Include">
-              <e p="SaasStart.Web.AssemblyInfo.cs" t="Include" />
-              <e p="SaasStart.Web.RazorAssemblyInfo.cs" t="Include" />
+        <e p="Areas" t="Include">
+          <e p="Identity" t="Include">
+            <e p="Pages" t="Include">
+              <e p="_ViewStart.cshtml" t="Include" />
             </e>
           </e>
         </e>
-        <e p="Pages" t="Include">
-          <e p="_ViewImports.cshtml" t="Include" />
-          <e p="_ViewStart.cshtml" t="Include" />
-          <e p="Error.cshtml" t="Include" />
-          <e p="Error.cshtml.cs" t="Include" />
-          <e p="Index.cshtml" t="Include" />
-          <e p="Index.cshtml.cs" t="Include" />
-          <e p="Privacy.cshtml" t="Include" />
-          <e p="Privacy.cshtml.cs" t="Include" />
-          <e p="Shared" t="Include">
-            <e p="_Layout.cshtml" t="Include" />
-            <e p="_ValidationScriptsPartial.cshtml" t="Include" />
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="Controllers" t="Include">
+          <e p="HomeController.cs" t="Include" />
+        </e>
+        <e p="Infrastructure" t="Include">
+          <e p="AmbientLinkValueGenerator.cs" t="Include" />
+          <e p="ApplicationDbContext.cs" t="Include" />
+          <e p="TenantDbContext.cs" t="Include" />
+        </e>
+        <e p="Migrations" t="Include">
+          <e p="20200920152615_Initial.cs" t="Include" />
+          <e p="20200920152615_Initial.Designer.cs" t="Include" />
+          <e p="ApplicationDbContextModelSnapshot.cs" t="Include" />
+        </e>
+        <e p="Models" t="Include">
+          <e p="ErrorViewModel.cs" t="Include" />
+        </e>
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp3.1" t="Include">
+              <e p="SaasStart.MVC.AssemblyInfo.cs" t="Include" />
+              <e p="SaasStart.MVC.RazorAssemblyInfo.cs" t="Include" />
+            </e>
           </e>
         </e>
         <e p="Program.cs" t="Include" />
         <e p="Properties" t="Include">
           <e p="launchSettings.json" t="Include" />
         </e>
-        <e p="SaasStart.Web.csproj" t="IncludeRecursive" />
+        <e p="SaasStart.MVC.csproj" t="IncludeRecursive" />
         <e p="Startup.cs" t="Include" />
+        <e p="Views" t="Include">
+          <e p="_ViewImports.cshtml" t="Include" />
+          <e p="_ViewStart.cshtml" t="Include" />
+          <e p="Home" t="Include">
+            <e p="Index.cshtml" t="Include" />
+            <e p="Privacy.cshtml" t="Include" />
+          </e>
+          <e p="Shared" t="Include">
+            <e p="_Layout.cshtml" t="Include" />
+            <e p="_LoginPartial.cshtml" t="Include" />
+            <e p="_ValidationScriptsPartial.cshtml" t="Include" />
+            <e p="Error.cshtml" t="Include" />
+          </e>
+        </e>
         <e p="wwwroot" t="Include">
           <e p="css" t="Include">
             <e p="site.css" t="Include" />
@@ -155,6 +147,21 @@
             </e>
           </e>
         </e>
+      </e>
+      <e p="SaasStart.sln" t="IncludeFlat" />
+      <e p="SaasStart.Test" t="IncludeRecursive">
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="Controllers" t="Include" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp3.1" t="Include">
+              <e p="SaasStart.Test.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="SaasStart.Test.csproj" t="IncludeRecursive" />
+        <e p="Services" t="Include" />
+        <e p="UnitTest1.cs" t="Include" />
       </e>
     </e>
   </component>

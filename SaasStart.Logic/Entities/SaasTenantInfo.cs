@@ -3,9 +3,11 @@
 namespace SaasStart.Logic.Entities
 {
     /// <summary>
-    ///     Contains extra information specific to a tenant.
+    /// Contains extra information specific to a tenant.
     /// </summary>
     public class SaasTenantInfo : TenantInfo
     {
+        public string JwtAuthority { get; set; }
+        public string JwtAudience { get; set; }
     }
 }

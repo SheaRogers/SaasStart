@@ -13,6 +13,16 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/SaasStart.Data/Infrastructure/AmbientLinkValueGenerator.cs">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/SaasStart.Data/SaasStart.Data.csproj">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/SaasStart.Data/TenantDbContext.cs">
           <value>
             <set />
@@ -24,6 +34,56 @@
           </value>
         </entry>
         <entry key="$PROJECT_DIR$/SaasStart.Logic/Entities/SaasTenantInfo.cs">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/SaasStart.MVC/AmbientLinkValueGenerator.cs">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/SaasStart.MVC/Controllers/HomeController.cs">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/SaasStart.MVC/Infrastructure/ApplicationDbContext.cs">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/SaasStart.MVC/Infrastructure/TenantDbContext.cs">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/SaasStart.MVC/Program.cs">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/SaasStart.MVC/SaasStart.MVC.csproj">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/SaasStart.MVC/Startup.cs">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/SaasStart.MVC/appsettings.json">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/SaasStart.SSOWeb/Program.cs">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/SaasStart.SSOWeb/Startup.cs">
           <value>
             <set />
           </value>
@@ -49,6 +109,11 @@
           </value>
         </entry>
         <entry key="$PROJECT_DIR$/SaasStart.Web/Pages/Shared/_Layout.cshtml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/SaasStart.Web/Pages/_ViewImports.cshtml">
           <value>
             <set />
           </value>
