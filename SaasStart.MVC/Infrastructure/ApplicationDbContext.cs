@@ -19,21 +19,23 @@ namespace SaasStart.MVC.Infrastructure
 
 
         /// <summary>
-        /// Returns a valid tenant context given a tenant name. Only needed on initial tenant generation.
+        /// Returns a whether the tenant database existed, and creates it if not.
         /// </summary>
         /// <param name="tenantInfo"></param>
+        /// <param name="tenantInfoResult"></param>
         /// <returns></returns>
-        public string GenerateTenantDb(SaasTenantInfo tenantInfo)
+        public bool GenerateTenantDb(SaasTenantInfo tenantInfo, out SaasTenantInfo tenantInfoResult)
         {
             var conn = string.Format(_configuration.GetConnectionString("TenantConnection"),
-                tenantInfo.Identifier + Guid.NewGuid().ToString().Substring(0, 5));
+                tenantInfo.Identifier);
             tenantInfo.ConnectionString = conn;
             
             var dbContext = new TenantDbContext(tenantInfo);
             
-            dbContext.Database.EnsureCreated();
+            var test = dbContext.Database.EnsureCreated();
 
-            return conn;
+            tenantInfoResult = tenantInfo;
+            return test;
         }
     }
 }

@@ -1,4 +1,5 @@
-﻿using Finbuckle.MultiTenant;
+﻿using System.Collections.Generic;
+using Finbuckle.MultiTenant;
 
 namespace SaasStart.Logic.Entities
 {
@@ -9,5 +10,12 @@ namespace SaasStart.Logic.Entities
     {
         public string JwtAuthority { get; set; }
         public string JwtAudience { get; set; }
+
+        public Dictionary<string, string> TenantContent;
+
+        public SaasTenantInfo()
+        {
+            TenantContent = new Dictionary<string, string>();
+        }
     }
 }

@@ -1,6 +1,15 @@
-﻿@{
+﻿@using Finbuckle.MultiTenant
+@using SaasStart.Logic.Entities
+@{
     ViewData["Title"] = "Privacy Policy";
+    var policyFound = Context.GetMultiTenantContext<SaasTenantInfo>().TenantInfo.TenantContent.TryGetValue("privacyPolicy", out var policyContents);
 }
 <h1>@ViewData["Title"]</h1>
 
-<p>Use this page to detail your site's privacy policy.</p>
+@if(policyFound){
+    <p>@policyContents</p>
+}
+else
+{
+    <p>Use this page to detail your site's privacy policy.</p>
+}

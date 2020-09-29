@@ -21,7 +21,13 @@ namespace SaasStart.MVC.Migrations.SampleData
                 Identifier = "default",
                 Name = "Default Corporation"
             };
-            defaultTenant.ConnectionString = dbContext.GenerateTenantDb(defaultTenant);
+            defaultTenant.TenantContent.Add("privacyPolicy", "Privacy is important to Default Corporation!");
+            var defaultTest = dbContext.GenerateTenantDb(defaultTenant, out defaultTenant);
+
+            if (!defaultTest)
+            {
+                dbContext.Add<ITenantInfo>(defaultTenant);
+            }
             
             var secondaryTenant = new SaasTenantInfo
             {
@@ -31,10 +37,15 @@ namespace SaasStart.MVC.Migrations.SampleData
                 Identifier = "secondary",
                 Name = "Secondary Incorporated"
             };
-            secondaryTenant.ConnectionString = dbContext.GenerateTenantDb(secondaryTenant);
             
-            dbContext.Add<ITenantInfo>(defaultTenant);
-            dbContext.Add<ITenantInfo>(secondaryTenant);
+            secondaryTenant.TenantContent.Add("privacyPolicy", "Privacy is important to Secondary Incorporated!");
+            var secondaryTest = dbContext.GenerateTenantDb(secondaryTenant, out secondaryTenant);
+
+            if (!secondaryTest)
+            {
+                dbContext.Add<ITenantInfo>(secondaryTenant);
+            }
+            
             dbContext.SaveChanges();
         }
     }

@@ -3,6 +3,11 @@
   <component name="issues">
     <option name="index">
       <map>
+        <entry key="$PROJECT_DIR$/README.md">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/SaasStart.Data/ApplicationDbContext.cs">
           <value>
             <set />
@@ -29,6 +34,11 @@
           </value>
         </entry>
         <entry key="$PROJECT_DIR$/SaasStart.Logic/Entities/ApplicationUser.cs">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/SaasStart.Logic/Entities/SaasTenantConstants.cs">
           <value>
             <set />
           </value>
@@ -94,6 +104,16 @@
           </value>
         </entry>
         <entry key="$PROJECT_DIR$/SaasStart.MVC/Startup.cs">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/SaasStart.MVC/Views/Home/Privacy.cshtml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/SaasStart.MVC/Views/Shared/_Layout.cshtml">
           <value>
             <set />
           </value>
