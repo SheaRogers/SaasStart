@@ -7,7 +7,7 @@ namespace SaasStart.MVC.Infrastructure
     /// <summary>
     /// Provides access to each tenant database.
     /// </summary>
-    public class TenantDbContext : MultiTenantIdentityDbContext<ApplicationUser>
+    public class TenantDbContext : MultiTenantIdentityDbContext
     {
         public TenantDbContext(SaasTenantInfo tenantInfo) : base(tenantInfo)
         {
@@ -21,6 +21,7 @@ namespace SaasStart.MVC.Infrastructure
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
             optionsBuilder.UseNpgsql(TenantInfo.ConnectionString);
+
             base.OnConfiguring(optionsBuilder);
         }
     }

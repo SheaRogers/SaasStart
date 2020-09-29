@@ -48,12 +48,37 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/SaasStart.MVC/Infrastructure/AmbientLinkValueGenerator.cs">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/SaasStart.MVC/Infrastructure/ApplicationDbContext.cs">
           <value>
             <set />
           </value>
         </entry>
         <entry key="$PROJECT_DIR$/SaasStart.MVC/Infrastructure/TenantDbContext.cs">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/SaasStart.MVC/Migrations/20200920152615_Initial.cs">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/SaasStart.MVC/Migrations/ApplicationDbContextModelSnapshot.cs">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/SaasStart.MVC/Migrations/SampleData/SampleTenants.cs">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/SaasStart.MVC/Models/ErrorViewModel.cs">
           <value>
             <set />
           </value>
@@ -69,6 +94,11 @@
           </value>
         </entry>
         <entry key="$PROJECT_DIR$/SaasStart.MVC/Startup.cs">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/SaasStart.MVC/Views/Shared/_LoginPartial.cshtml">
           <value>
             <set />
           </value>

@@ -11,6 +11,7 @@ using Microsoft.Extensions.Hosting;
 using SaasStart.Data.Infrastructure;
 using SaasStart.Logic.Entities;
 using SaasStart.MVC.Infrastructure;
+using SaasStart.MVC.Migrations.SampleData;
 
 namespace SaasStart.MVC
 {
@@ -51,16 +52,17 @@ namespace SaasStart.MVC
             
             services.AddMultiTenant<SaasTenantInfo>().WithRouteStrategy()
                 .WithEFCoreStore<ApplicationDbContext, SaasTenantInfo>().WithPerTenantAuthentication();
-            
+
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
-        public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
+        public void Configure(IApplicationBuilder app, IWebHostEnvironment env, ApplicationDbContext dbContext)
         {
             if (env.IsDevelopment())
             {
                 app.UseDeveloperExceptionPage();
                 app.UseDatabaseErrorPage();
+                SampleTenants.PopulateTenants(dbContext);
             }
             else
             {

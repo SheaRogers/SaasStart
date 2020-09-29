@@ -21,7 +21,6 @@
     </ItemGroup>
 
     <ItemGroup>
-      <ProjectReference Include="..\SaasStart.Data\SaasStart.Data.csproj" />
       <ProjectReference Include="..\SaasStart.Logic\SaasStart.Logic.csproj" />
     </ItemGroup>
 

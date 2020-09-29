@@ -12,96 +12,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="92bca515-ed99-431f-b579-5d68bb44f810" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/SaasStart.MVC/Migrations/SampleData/SampleTenants.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.SaasStart/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.SaasStart/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.SaasStart/.idea/sonarIssues.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.SaasStart/.idea/sonarIssues.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.SaasStart/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.SaasStart/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SaasStart.Data/SaasStart.Data.csproj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SaasStart.Logic/Entities/SaasTenantInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/SaasStart.Logic/Entities/SaasTenantInfo.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SaasStart.Logic/SaasStart.Logic.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/SaasStart.Logic/SaasStart.Logic.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SaasStart.SSOWeb/App.razor" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SaasStart.SSOWeb/Pages/Authentication.razor" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SaasStart.SSOWeb/Pages/Counter.razor" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SaasStart.SSOWeb/Pages/FetchData.razor" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SaasStart.SSOWeb/Pages/Index.razor" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SaasStart.SSOWeb/Program.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SaasStart.SSOWeb/Properties/launchSettings.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SaasStart.SSOWeb/SaasStart.SSOWeb.csproj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SaasStart.SSOWeb/Shared/LoginDisplay.razor" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SaasStart.SSOWeb/Shared/MainLayout.razor" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SaasStart.SSOWeb/Shared/NavMenu.razor" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SaasStart.SSOWeb/Shared/RedirectToLogin.razor" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SaasStart.SSOWeb/Shared/SurveyPrompt.razor" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SaasStart.SSOWeb/_Imports.razor" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SaasStart.SSOWeb/wwwroot/appsettings.Development.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SaasStart.SSOWeb/wwwroot/appsettings.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SaasStart.SSOWeb/wwwroot/css/app.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SaasStart.SSOWeb/wwwroot/css/bootstrap/bootstrap.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SaasStart.SSOWeb/wwwroot/css/bootstrap/bootstrap.min.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SaasStart.SSOWeb/wwwroot/css/open-iconic/FONT-LICENSE" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SaasStart.SSOWeb/wwwroot/css/open-iconic/ICON-LICENSE" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SaasStart.SSOWeb/wwwroot/css/open-iconic/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SaasStart.SSOWeb/wwwroot/css/open-iconic/font/css/open-iconic-bootstrap.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SaasStart.SSOWeb/wwwroot/css/open-iconic/font/fonts/open-iconic.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SaasStart.SSOWeb/wwwroot/css/open-iconic/font/fonts/open-iconic.otf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SaasStart.SSOWeb/wwwroot/css/open-iconic/font/fonts/open-iconic.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SaasStart.SSOWeb/wwwroot/css/open-iconic/font/fonts/open-iconic.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SaasStart.SSOWeb/wwwroot/css/open-iconic/font/fonts/open-iconic.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SaasStart.SSOWeb/wwwroot/favicon.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SaasStart.SSOWeb/wwwroot/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SaasStart.SSOWeb/wwwroot/sample-data/weather.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SaasStart.Web/Pages/Error.cshtml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SaasStart.Web/Pages/Error.cshtml.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SaasStart.Web/Pages/Index.cshtml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SaasStart.Web/Pages/Index.cshtml.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SaasStart.Web/Pages/Privacy.cshtml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SaasStart.Web/Pages/Privacy.cshtml.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SaasStart.Web/Pages/Shared/_Layout.cshtml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SaasStart.Web/Pages/Shared/_ValidationScriptsPartial.cshtml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SaasStart.Web/Pages/_ViewImports.cshtml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SaasStart.Web/Pages/_ViewStart.cshtml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SaasStart.Web/Program.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SaasStart.Web/Properties/launchSettings.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SaasStart.Web/SaasStart.Web.csproj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SaasStart.Web/Startup.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SaasStart.Web/appsettings.Development.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SaasStart.Web/appsettings.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SaasStart.Web/wwwroot/css/site.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SaasStart.Web/wwwroot/favicon.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SaasStart.Web/wwwroot/js/site.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SaasStart.Web/wwwroot/lib/bootstrap/LICENSE" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SaasStart.Web/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SaasStart.Web/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SaasStart.Web/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SaasStart.Web/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.min.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SaasStart.Web/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SaasStart.Web/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SaasStart.Web/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SaasStart.Web/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.min.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SaasStart.Web/wwwroot/lib/bootstrap/dist/css/bootstrap.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SaasStart.Web/wwwroot/lib/bootstrap/dist/css/bootstrap.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SaasStart.Web/wwwroot/lib/bootstrap/dist/css/bootstrap.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SaasStart.Web/wwwroot/lib/bootstrap/dist/css/bootstrap.min.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SaasStart.Web/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SaasStart.Web/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SaasStart.Web/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SaasStart.Web/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SaasStart.Web/wwwroot/lib/bootstrap/dist/js/bootstrap.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SaasStart.Web/wwwroot/lib/bootstrap/dist/js/bootstrap.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SaasStart.Web/wwwroot/lib/bootstrap/dist/js/bootstrap.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SaasStart.Web/wwwroot/lib/bootstrap/dist/js/bootstrap.min.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SaasStart.Web/wwwroot/lib/jquery-validation-unobtrusive/LICENSE.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SaasStart.Web/wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SaasStart.Web/wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SaasStart.Web/wwwroot/lib/jquery-validation/LICENSE.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SaasStart.Web/wwwroot/lib/jquery-validation/dist/additional-methods.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SaasStart.Web/wwwroot/lib/jquery-validation/dist/additional-methods.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SaasStart.Web/wwwroot/lib/jquery-validation/dist/jquery.validate.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SaasStart.Web/wwwroot/lib/jquery-validation/dist/jquery.validate.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SaasStart.Web/wwwroot/lib/jquery/LICENSE.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SaasStart.Web/wwwroot/lib/jquery/dist/jquery.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SaasStart.Web/wwwroot/lib/jquery/dist/jquery.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SaasStart.Web/wwwroot/lib/jquery/dist/jquery.min.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SaasStart.sln" beforeDir="false" afterPath="$PROJECT_DIR$/SaasStart.sln" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SaasStart.MVC/Infrastructure/ApplicationDbContext.cs" beforeDir="false" afterPath="$PROJECT_DIR$/SaasStart.MVC/Infrastructure/ApplicationDbContext.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SaasStart.MVC/Infrastructure/TenantDbContext.cs" beforeDir="false" afterPath="$PROJECT_DIR$/SaasStart.MVC/Infrastructure/TenantDbContext.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SaasStart.MVC/SaasStart.MVC.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/SaasStart.MVC/SaasStart.MVC.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SaasStart.MVC/Startup.cs" beforeDir="false" afterPath="$PROJECT_DIR$/SaasStart.MVC/Startup.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SaasStart.MVC/appsettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/SaasStart.MVC/appsettings.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -122,6 +41,7 @@
     <setting file="file://$PROJECT_DIR$/SaasStart.Logic/appsettings.json" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/SaasStart.MVC/Infrastructure/TenantDbContext.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/SaasStart.Logic/Entities/SaasTenantInfo.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/9CD23B5E-3B0C-4F80-A807-33BCFD1D82E1/1E0/ExceptionDispatchInfo.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -142,7 +62,6 @@
         <option value="$PROJECT_DIR$/SaasStart.Logic/appsettings.json" />
         <option value="$PROJECT_DIR$/SaasStart.Web/appsettings.Development.json" />
         <option value="$PROJECT_DIR$/SaasStart.Data/ApplicationContext.cs" />
-        <option value="$PROJECT_DIR$/SaasStart.Logic/Entities/ApplicationUser.cs" />
         <option value="$PROJECT_DIR$/SaasStart.Web/Program.cs" />
         <option value="$PROJECT_DIR$/SaasStart.Web/Pages/Privacy.cshtml.cs" />
         <option value="$PROJECT_DIR$/SaasStart.Web/Pages/Index.cshtml.cs" />
@@ -151,22 +70,24 @@
         <option value="$PROJECT_DIR$/SaasStart.Web/SaasStart.Web.csproj" />
         <option value="$PROJECT_DIR$/SaasStart.Data/TenantDbContext.cs" />
         <option value="$PROJECT_DIR$/SaasStart.Data/Factories/DesignTimeFactory.cs" />
-        <option value="$PROJECT_DIR$/SaasStart.Logic/Entities/SaasTenantInfo.cs" />
         <option value="$PROJECT_DIR$/SaasStart.Web/Startup.cs" />
         <option value="$PROJECT_DIR$/SaasStart.Web/Pages/_ViewImports.cshtml" />
         <option value="$PROJECT_DIR$/SaasStart.SSOWeb/Startup.cs" />
         <option value="$PROJECT_DIR$/SaasStart.SSOWeb/Program.cs" />
         <option value="$PROJECT_DIR$/SaasStart.MVC/Program.cs" />
         <option value="$PROJECT_DIR$/SaasStart.Data/SaasStart.Data.csproj" />
-        <option value="$PROJECT_DIR$/SaasStart.MVC/SaasStart.MVC.csproj" />
         <option value="$PROJECT_DIR$/SaasStart.MVC/Controllers/HomeController.cs" />
         <option value="$PROJECT_DIR$/SaasStart.Data/Infrastructure/AmbientLinkValueGenerator.cs" />
         <option value="$PROJECT_DIR$/SaasStart.MVC/AmbientLinkValueGenerator.cs" />
         <option value="$PROJECT_DIR$/SaasStart.Data/ApplicationDbContext.cs" />
-        <option value="$PROJECT_DIR$/SaasStart.MVC/Infrastructure/ApplicationDbContext.cs" />
-        <option value="$PROJECT_DIR$/SaasStart.MVC/Infrastructure/TenantDbContext.cs" />
-        <option value="$PROJECT_DIR$/SaasStart.MVC/Startup.cs" />
+        <option value="$PROJECT_DIR$/SaasStart.MVC/SaasStart.MVC.csproj" />
         <option value="$PROJECT_DIR$/SaasStart.MVC/appsettings.json" />
+        <option value="$PROJECT_DIR$/SaasStart.MVC/Startup.cs" />
+        <option value="$PROJECT_DIR$/SaasStart.Logic/Entities/SaasTenantInfo.cs" />
+        <option value="$PROJECT_DIR$/SaasStart.MVC/Migrations/SampleData/SampleTenants.cs" />
+        <option value="$PROJECT_DIR$/SaasStart.MVC/Infrastructure/ApplicationDbContext.cs" />
+        <option value="$PROJECT_DIR$/SaasStart.Logic/Entities/ApplicationUser.cs" />
+        <option value="$PROJECT_DIR$/SaasStart.MVC/Infrastructure/TenantDbContext.cs" />
       </list>
     </option>
   </component>
@@ -307,7 +228,7 @@
       <workItem from="1600025354500" duration="224000" />
       <workItem from="1600026979890" duration="621000" />
       <workItem from="1600027734759" duration="4360000" />
-      <workItem from="1600530308928" duration="6043000" />
+      <workItem from="1600530308928" duration="11795000" />
     </task>
     <servers />
   </component>
@@ -337,90 +258,90 @@
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="1029" y="546" key="ANALYSIS_DLG_com.jetbrains.rider.actions.impl.cleanup.RiderCodeCleanupAction$actionPerformed$dlg$1/0.0.2560.1400/320.-1080.1920.1040@0.0.2560.1400" timestamp="1600027891917" />
-    <state width="2517" height="519" key="GridCell.Tab.0.bottom" timestamp="1600614216449">
+    <state width="2517" height="519" key="GridCell.Tab.0.bottom" timestamp="1601345083094">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2517" height="519" key="GridCell.Tab.0.bottom/0.0.2560.1400/320.-1080.1920.1040@0.0.2560.1400" timestamp="1600614216449" />
-    <state width="2517" height="519" key="GridCell.Tab.0.center" timestamp="1600614216449">
+    <state width="2517" height="519" key="GridCell.Tab.0.bottom/0.0.2560.1400/320.-1080.1920.1040@0.0.2560.1400" timestamp="1601345083094" />
+    <state width="2517" height="519" key="GridCell.Tab.0.center" timestamp="1601345083094">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2517" height="519" key="GridCell.Tab.0.center/0.0.2560.1400/320.-1080.1920.1040@0.0.2560.1400" timestamp="1600614216449" />
-    <state width="2517" height="519" key="GridCell.Tab.0.left" timestamp="1600614216449">
+    <state width="2517" height="519" key="GridCell.Tab.0.center/0.0.2560.1400/320.-1080.1920.1040@0.0.2560.1400" timestamp="1601345083094" />
+    <state width="2517" height="519" key="GridCell.Tab.0.left" timestamp="1601345083094">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2517" height="519" key="GridCell.Tab.0.left/0.0.2560.1400/320.-1080.1920.1040@0.0.2560.1400" timestamp="1600614216449" />
-    <state width="2517" height="519" key="GridCell.Tab.0.right" timestamp="1600614216449">
+    <state width="2517" height="519" key="GridCell.Tab.0.left/0.0.2560.1400/320.-1080.1920.1040@0.0.2560.1400" timestamp="1601345083094" />
+    <state width="2517" height="519" key="GridCell.Tab.0.right" timestamp="1601345083094">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2517" height="519" key="GridCell.Tab.0.right/0.0.2560.1400/320.-1080.1920.1040@0.0.2560.1400" timestamp="1600614216449" />
-    <state width="2517" height="519" key="GridCell.Tab.1.bottom" timestamp="1600614216449">
+    <state width="2517" height="519" key="GridCell.Tab.0.right/0.0.2560.1400/320.-1080.1920.1040@0.0.2560.1400" timestamp="1601345083094" />
+    <state width="2517" height="519" key="GridCell.Tab.1.bottom" timestamp="1601345082949">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2517" height="519" key="GridCell.Tab.1.bottom/0.0.2560.1400/320.-1080.1920.1040@0.0.2560.1400" timestamp="1600614216449" />
-    <state width="2517" height="519" key="GridCell.Tab.1.center" timestamp="1600614216449">
+    <state width="2517" height="519" key="GridCell.Tab.1.bottom/0.0.2560.1400/320.-1080.1920.1040@0.0.2560.1400" timestamp="1601345082949" />
+    <state width="2517" height="519" key="GridCell.Tab.1.center" timestamp="1601345082949">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2517" height="519" key="GridCell.Tab.1.center/0.0.2560.1400/320.-1080.1920.1040@0.0.2560.1400" timestamp="1600614216449" />
-    <state width="2517" height="519" key="GridCell.Tab.1.left" timestamp="1600614216449">
+    <state width="2517" height="519" key="GridCell.Tab.1.center/0.0.2560.1400/320.-1080.1920.1040@0.0.2560.1400" timestamp="1601345082949" />
+    <state width="2517" height="519" key="GridCell.Tab.1.left" timestamp="1601345082949">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2517" height="519" key="GridCell.Tab.1.left/0.0.2560.1400/320.-1080.1920.1040@0.0.2560.1400" timestamp="1600614216449" />
-    <state width="2517" height="519" key="GridCell.Tab.1.right" timestamp="1600614216449">
+    <state width="2517" height="519" key="GridCell.Tab.1.left/0.0.2560.1400/320.-1080.1920.1040@0.0.2560.1400" timestamp="1601345082949" />
+    <state width="2517" height="519" key="GridCell.Tab.1.right" timestamp="1601345082949">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2517" height="519" key="GridCell.Tab.1.right/0.0.2560.1400/320.-1080.1920.1040@0.0.2560.1400" timestamp="1600614216449" />
-    <state width="2517" height="519" key="GridCell.Tab.2.bottom" timestamp="1600614216449">
+    <state width="2517" height="519" key="GridCell.Tab.1.right/0.0.2560.1400/320.-1080.1920.1040@0.0.2560.1400" timestamp="1601345082949" />
+    <state width="2517" height="519" key="GridCell.Tab.2.bottom" timestamp="1601345082949">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2517" height="519" key="GridCell.Tab.2.bottom/0.0.2560.1400/320.-1080.1920.1040@0.0.2560.1400" timestamp="1600614216449" />
-    <state width="2517" height="519" key="GridCell.Tab.2.center" timestamp="1600614216449">
+    <state width="2517" height="519" key="GridCell.Tab.2.bottom/0.0.2560.1400/320.-1080.1920.1040@0.0.2560.1400" timestamp="1601345082949" />
+    <state width="2517" height="519" key="GridCell.Tab.2.center" timestamp="1601345082949">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2517" height="519" key="GridCell.Tab.2.center/0.0.2560.1400/320.-1080.1920.1040@0.0.2560.1400" timestamp="1600614216449" />
-    <state width="2517" height="519" key="GridCell.Tab.2.left" timestamp="1600614216449">
+    <state width="2517" height="519" key="GridCell.Tab.2.center/0.0.2560.1400/320.-1080.1920.1040@0.0.2560.1400" timestamp="1601345082949" />
+    <state width="2517" height="519" key="GridCell.Tab.2.left" timestamp="1601345082949">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2517" height="519" key="GridCell.Tab.2.left/0.0.2560.1400/320.-1080.1920.1040@0.0.2560.1400" timestamp="1600614216449" />
-    <state width="2517" height="519" key="GridCell.Tab.2.right" timestamp="1600614216449">
+    <state width="2517" height="519" key="GridCell.Tab.2.left/0.0.2560.1400/320.-1080.1920.1040@0.0.2560.1400" timestamp="1601345082949" />
+    <state width="2517" height="519" key="GridCell.Tab.2.right" timestamp="1601345082949">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2517" height="519" key="GridCell.Tab.2.right/0.0.2560.1400/320.-1080.1920.1040@0.0.2560.1400" timestamp="1600614216449" />
-    <state width="2517" height="519" key="GridCell.Tab.3.bottom" timestamp="1600614216449">
+    <state width="2517" height="519" key="GridCell.Tab.2.right/0.0.2560.1400/320.-1080.1920.1040@0.0.2560.1400" timestamp="1601345082949" />
+    <state width="2517" height="519" key="GridCell.Tab.3.bottom" timestamp="1601345082950">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2517" height="519" key="GridCell.Tab.3.bottom/0.0.2560.1400/320.-1080.1920.1040@0.0.2560.1400" timestamp="1600614216449" />
-    <state width="2517" height="519" key="GridCell.Tab.3.center" timestamp="1600614216449">
+    <state width="2517" height="519" key="GridCell.Tab.3.bottom/0.0.2560.1400/320.-1080.1920.1040@0.0.2560.1400" timestamp="1601345082950" />
+    <state width="2517" height="519" key="GridCell.Tab.3.center" timestamp="1601345082949">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2517" height="519" key="GridCell.Tab.3.center/0.0.2560.1400/320.-1080.1920.1040@0.0.2560.1400" timestamp="1600614216449" />
-    <state width="2517" height="519" key="GridCell.Tab.3.left" timestamp="1600614216449">
+    <state width="2517" height="519" key="GridCell.Tab.3.center/0.0.2560.1400/320.-1080.1920.1040@0.0.2560.1400" timestamp="1601345082949" />
+    <state width="2517" height="519" key="GridCell.Tab.3.left" timestamp="1601345082949">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2517" height="519" key="GridCell.Tab.3.left/0.0.2560.1400/320.-1080.1920.1040@0.0.2560.1400" timestamp="1600614216449" />
-    <state width="2517" height="519" key="GridCell.Tab.3.right" timestamp="1600614216449">
+    <state width="2517" height="519" key="GridCell.Tab.3.left/0.0.2560.1400/320.-1080.1920.1040@0.0.2560.1400" timestamp="1601345082949" />
+    <state width="2517" height="519" key="GridCell.Tab.3.right" timestamp="1601345082949">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2517" height="519" key="GridCell.Tab.3.right/0.0.2560.1400/320.-1080.1920.1040@0.0.2560.1400" timestamp="1600614216449" />
-    <state width="2517" height="519" key="GridCell.Tab.4.bottom" timestamp="1600614216450">
+    <state width="2517" height="519" key="GridCell.Tab.3.right/0.0.2560.1400/320.-1080.1920.1040@0.0.2560.1400" timestamp="1601345082949" />
+    <state width="2517" height="519" key="GridCell.Tab.4.bottom" timestamp="1601345082950">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2517" height="519" key="GridCell.Tab.4.bottom/0.0.2560.1400/320.-1080.1920.1040@0.0.2560.1400" timestamp="1600614216450" />
-    <state width="2517" height="519" key="GridCell.Tab.4.center" timestamp="1600614216449">
+    <state width="2517" height="519" key="GridCell.Tab.4.bottom/0.0.2560.1400/320.-1080.1920.1040@0.0.2560.1400" timestamp="1601345082950" />
+    <state width="2517" height="519" key="GridCell.Tab.4.center" timestamp="1601345082950">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2517" height="519" key="GridCell.Tab.4.center/0.0.2560.1400/320.-1080.1920.1040@0.0.2560.1400" timestamp="1600614216449" />
-    <state width="2517" height="519" key="GridCell.Tab.4.left" timestamp="1600614216449">
+    <state width="2517" height="519" key="GridCell.Tab.4.center/0.0.2560.1400/320.-1080.1920.1040@0.0.2560.1400" timestamp="1601345082950" />
+    <state width="2517" height="519" key="GridCell.Tab.4.left" timestamp="1601345082950">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2517" height="519" key="GridCell.Tab.4.left/0.0.2560.1400/320.-1080.1920.1040@0.0.2560.1400" timestamp="1600614216449" />
-    <state width="2517" height="519" key="GridCell.Tab.4.right" timestamp="1600614216449">
+    <state width="2517" height="519" key="GridCell.Tab.4.left/0.0.2560.1400/320.-1080.1920.1040@0.0.2560.1400" timestamp="1601345082950" />
+    <state width="2517" height="519" key="GridCell.Tab.4.right" timestamp="1601345082950">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2517" height="519" key="GridCell.Tab.4.right/0.0.2560.1400/320.-1080.1920.1040@0.0.2560.1400" timestamp="1600614216449" />
-    <state x="873" y="433" key="Rider.ProjectTemplateDialog.Size" timestamp="1600613413295">
+    <state width="2517" height="519" key="GridCell.Tab.4.right/0.0.2560.1400/320.-1080.1920.1040@0.0.2560.1400" timestamp="1601345082950" />
+    <state x="873" y="433" key="Rider.ProjectTemplateDialog.Size" timestamp="1601342715977">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="873" y="433" key="Rider.ProjectTemplateDialog.Size/0.0.2560.1400/320.-1080.1920.1040@0.0.2560.1400" timestamp="1600613413295" />
+    <state x="873" y="433" key="Rider.ProjectTemplateDialog.Size/0.0.2560.1400/320.-1080.1920.1040@0.0.2560.1400" timestamp="1601342715977" />
     <state x="1021" y="417" key="RiderGenerateDialog" timestamp="1599413875012">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
@@ -433,5 +354,9 @@
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="93" y="93" width="2375" height="1215" key="VCS.FileHistoryDialog/0.0.2560.1400/320.-1080.1920.1040@0.0.2560.1400" timestamp="1600033045628" />
+    <state x="943" y="315" width="672" height="678" key="search.everywhere.popup" timestamp="1601343023330">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="943" y="315" width="672" height="678" key="search.everywhere.popup/0.0.2560.1400/320.-1080.1920.1040@0.0.2560.1400" timestamp="1601343023330" />
   </component>
 </project>

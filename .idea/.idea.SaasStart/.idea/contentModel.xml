@@ -53,6 +53,9 @@
           <e p="20200920152615_Initial.cs" t="Include" />
           <e p="20200920152615_Initial.Designer.cs" t="Include" />
           <e p="ApplicationDbContextModelSnapshot.cs" t="Include" />
+          <e p="SampleData" t="Include">
+            <e p="SampleTenants.cs" t="Include" />
+          </e>
         </e>
         <e p="Models" t="Include">
           <e p="ErrorViewModel.cs" t="Include" />
