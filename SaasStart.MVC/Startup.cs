@@ -1,3 +1,4 @@
+using System;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Hosting;
@@ -6,7 +7,7 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using SaasStart.Logic.Entities;
-using SaasStart.MVC.Infrastructure;
+using SaasStart.Logic.Infrastructure;
 using SaasStart.MVC.Migrations.SampleData;
 
 namespace SaasStart.MVC
@@ -39,6 +40,7 @@ namespace SaasStart.MVC
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
+        // ReSharper disable once UnusedMember.Global
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env, ApplicationDbContext dbContext)
         {
             app.UseMultiTenant();
@@ -46,7 +48,13 @@ namespace SaasStart.MVC
             {
                 app.UseDeveloperExceptionPage();
                 app.UseDatabaseErrorPage();
-                SampleTenants.PopulateTenants(dbContext);
+                try
+                {
+                    SampleTenants.PopulateTenants(dbContext);
+                } catch
+                {
+                   Console.WriteLine("Test Tenants were created already.");
+                }
             }
             else
             {

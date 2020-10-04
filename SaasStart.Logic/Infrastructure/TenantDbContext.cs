@@ -2,7 +2,7 @@
 using Microsoft.EntityFrameworkCore;
 using SaasStart.Logic.Entities;
 
-namespace SaasStart.MVC.Infrastructure
+namespace SaasStart.Logic.Infrastructure
 {
     /// <summary>
     /// Provides access to each tenant database.

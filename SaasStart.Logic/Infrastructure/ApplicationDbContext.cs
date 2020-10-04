@@ -1,10 +1,9 @@
-﻿using System;
-using Finbuckle.MultiTenant.Stores;
+﻿using Finbuckle.MultiTenant.Stores;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using SaasStart.Logic.Entities;
 
-namespace SaasStart.MVC.Infrastructure
+namespace SaasStart.Logic.Infrastructure
 {
     /// <summary>
     /// Stores information for cross tenant functionality.

@@ -1,7 +1,6 @@
 ﻿using Finbuckle.MultiTenant;
-using Microsoft.Extensions.Hosting;
 using SaasStart.Logic.Entities;
-using SaasStart.MVC.Infrastructure;
+using SaasStart.Logic.Infrastructure;
 
 namespace SaasStart.MVC.Migrations.SampleData
 {

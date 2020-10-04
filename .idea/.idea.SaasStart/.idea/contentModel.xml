@@ -22,6 +22,10 @@
           <e p="SaasTenantConstants.cs" t="Include" />
           <e p="SaasTenantInfo.cs" t="Include" />
         </e>
+        <e p="Infrastructure" t="Include">
+          <e p="ApplicationDbContext.cs" t="Include" />
+          <e p="TenantDbContext.cs" t="Include" />
+        </e>
         <e p="obj" t="ExcludeRecursive">
           <e p="Debug" t="Include">
             <e p="netcoreapp3.1" t="Include">
@@ -44,10 +48,6 @@
         <e p="bin" t="ExcludeRecursive" />
         <e p="Controllers" t="Include">
           <e p="HomeController.cs" t="Include" />
-        </e>
-        <e p="Infrastructure" t="Include">
-          <e p="ApplicationDbContext.cs" t="Include" />
-          <e p="TenantDbContext.cs" t="Include" />
         </e>
         <e p="Migrations" t="Include">
           <e p="20200920152615_Initial.cs" t="Include" />
@@ -152,6 +152,28 @@
         </e>
       </e>
       <e p="SaasStart.sln" t="IncludeFlat" />
+      <e p="SaasStart.TenantService" t="IncludeRecursive">
+        <e p="appsettings.Development.json" t="Include" />
+        <e p="appsettings.json" t="Include" />
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="Controllers" t="Include">
+          <e p="TenantController.cs" t="Include" />
+        </e>
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp3.1" t="Include">
+              <e p="SaasStart.TenantService.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="Program.cs" t="Include" />
+        <e p="Properties" t="Include">
+          <e p="launchSettings.json" t="Include" />
+        </e>
+        <e p="SaasStart.TenantService.csproj" t="IncludeRecursive" />
+        <e p="Startup.cs" t="Include" />
+        <e p="WeatherForecast.cs" t="Include" />
+      </e>
       <e p="SaasStart.Test" t="IncludeRecursive">
         <e p="bin" t="ExcludeRecursive" />
         <e p="Controllers" t="Include" />

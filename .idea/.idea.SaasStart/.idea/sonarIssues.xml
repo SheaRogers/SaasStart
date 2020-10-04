@@ -48,6 +48,16 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/SaasStart.Logic/Infrastructure/ApplicationDbContext.cs">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/SaasStart.Logic/Infrastructure/TenantDbContext.cs">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/SaasStart.MVC/AmbientLinkValueGenerator.cs">
           <value>
             <set />
@@ -134,6 +144,26 @@
           </value>
         </entry>
         <entry key="$PROJECT_DIR$/SaasStart.SSOWeb/Startup.cs">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/SaasStart.TenantService/Controllers/TenantController.cs">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/SaasStart.TenantService/Program.cs">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/SaasStart.TenantService/Startup.cs">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/SaasStart.TenantService/appsettings.json">
           <value>
             <set />
           </value>
